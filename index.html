@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>移动端商城</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	 <script>
+	    window.onload = window.onresize = function(){
+	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+	        var _html = document.getElementsByTagName('html')[0];
+	        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+	    }
+	</script>
+</head>
+<body>
+
+	<header>
+		<div class="top cearfix">
+			<span class="iconfont fl">&#xe65d;</span>
+			<h6 class="fl">Woman, Dresses</h6>
+			<span class="iconfont icon-gouwuche fr"><i>3</i></span>
+		</div>
+		<div class="btn cearfix">
+			<a href="#" class="btn1 fl">add to wishlist</a><a href="#" class="btn2 fr">add to cart</a>
+		</div>
+	</header>
+	
+<div class="bn">
+	<div class="banner">
+		<div>
+			<img src="images/img.jpg" alt="">
+		</div>
+		<div class="bn_text">
+			<p class="fl">Elegant Pink Dresses</p>
+			<a href="#" class="fr">$605.00</a>
+		</div>
+	</div>
+	
+	<div class="banner">
+		
+		<div class="bn_text mt22">
+			<p class="fl jia">Description</p>
+			
+		</div>
+	</div>
+	
+	<div class="banner">
+		<div class="con">
+			<img src="images/yudi2.gif" >
+			<p>Choose a colour for item</p>
+			<p><span class="span1"></span><span class="span2"></span><span class="span3"></span></p>
+		</div>
+	
+	<div class="con">
+		<img src="images/yudi2.gif" >
+		<p>Choose a colour for item</p>
+		<p><span>6</span><span class="active">8</span><span>10</span><span>12</span><span>14</span></p>
+	  </div>
+   </div>
+</div>
+       <div class="content2">
+	        ADD TO CART
+       </div>
+	   
+      <div class="content3">
+	       <h5>SHARE ON</h5>
+		  <div class="h fr"></div>
+		  <ul>
+		  	<li><img src="images/feige.gif" alt=""><p>205</p></li>
+		  	<li><img src="images/f.gif" alt=""><p>332</p></li>
+		  	<li><img src="images/weibo.gif" alt=""><p>112</p></li>
+		  </ul>
+      </div>
+</body>
+</html>
